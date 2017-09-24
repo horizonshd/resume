@@ -1,71 +1,116 @@
-Markdown Resumé
-===============
+# 个人信息
+![my_own_pic](E:\\证件照.JPG)
 
-[Markdown](https://raw.github.com/mwhite/resume/master/resume.md) -> [PDF](https://raw.github.com/mwhite/resume/master/resume.pdf), [HTML](http://mwhite.github.com/resume), and more
-<http://github.com/mwhite/resume>
+ - 姓名：沈浩狄
+ - 性别：男
+ - 出生年份：1996
+ - 籍贯：重庆
+ - 求职意向：WEB开发
 
-Interests
----------
+---
+ 
+# 教育背景
 
-*   Creating beautiful resumés from simple Markdown documents
+ - 学校：西北工业大学（985）
+ - 学历：本科（2014年9月-2018年7月）
+ - 学院：计算机学院
+ - 专业：电子商务
+ - 主修课程：数据结构、数据库原理、网络编程、软件工程、信息检索与数据挖掘、电子商务安全
+ 
+---
 
+# 联系方式
 
-Work Experience
----------------
+- 手机：13452417001
+- Email：horizon@mail.nwpu.edu.com 
+- QQ号：1396538376
 
-*   **Word Processor** (Redmond, WA)
+---
 
-    *Junior Resumé Maker*, 2006 - 2007
+# 项目经验
 
-    -   Intermingled presentation and content
-    -   Styling was a pain, so either didn't do it or found a half-decent
-        template and didn't mess with it
+## 国信安信息产业基地有限公司实习（2017年7月-2017年8月）
 
-*   **\LaTeX\ + pdflatex**
+### 在线论坛项目开发 
 
-    *Senior Resumé Maker*, 2008 - 2010
+#### 项目简介
 
-    -   Edited verbose \LaTeX\ documents in a text editor
-    -   Mixed content and presentation to achieve pixel-perfection
-    -   Installed and configured the unusual TeX setups required by the
-        best-looking \LaTeX\ resumés
+- 该项目实现了目前各类主流论坛产品的主要功能
+- 项目的开发主要通过C#编写实现，并结合使用了ASP.NET技术、HTML、JavaScript以及SQL等语言
+- 各模块功能的实现结合使用了ADO.Net的数据库访问对象、ASP+html+一般处理程序实现对数据库数据的页面无刷新读取、GridView控件对内容的归一化呈现、dropdown控件绑定数据源、第三方文本编辑器KindEditor的引入、母版页实现各页面的风格统一、Session对象、AspNetPager控件实现内容的分页
 
-*   **LinkedIn, StackOverflow Careers, vizualize.me, etc**
+#### 责任描述
+项目开发过程中，本人主要负责以下内容：
 
-    *Web Resumé Intern*, August 2010
+- 关于用户表、帖子表以及版块类别表的数据库设计工作
+- 用户注册、登录功能模块及其页面的设计
+- 帖子发表页面的设计和功能的实现
+- 论坛线上内容展示（如帖子）的分页处理
 
-    -   Entered data, adapting to different data models and formatting
-        limitations
-    -   Attempted to customize PDF exports and remove default resumé elements,
-        to no avail
+---
 
-*   **Markdown with Pandoc**
+# 个人作品
 
-    *Resumé Architect*, February 2011 - present
+### 《外星人入侵》游戏（2016年5月）
 
-    -   Write in one format (Markdown), convert to many formats (PDF, HTML, ODT,
-        DOCX, and more)
-    -   Style HTML output with CSS and PDF output with a custom \LaTeX\ header
-    -   Use a simple pre-processor to define per-format operations on the
-        Markdown input or its parts, such as moving contact information to the
-        top right of the page in both HTML and PDF output.
-    -   Use a text-based resumé when needed in a pinch
-    -   Use version control, including free hosting on Github
+- 该项目是使用Python语言实现带有UI界面以及简单处理逻辑的小游戏。
+- 该游戏主要通过Python提供的Pygame库来开发
+- 编码实现过程中主要涉及游戏元素的绘制、对象的运动控制以及碰撞检测
+- 在项目中学习了对多个项目文件的管理以及在功能迭代过程中对代码的重构
 
+### 在线购物商城（2017年7月）
 
-Education
----------
-
-*   **Github University** (World Wide Web)
-
-    *B.S. in Submodules*, May 2012
-
-
-Skills
-------
-
-*   Very experienced with Python, Markdown, \LaTeX
-
-*   Familiar with GNU Make, bash
+- 在线购物商城项目通过PHP语言实现
+- 通过XAMPP部署开发环境，使用MySQL数据库，结合模板-视图-控制器（MVC）开发模式，实现前端业务与后台管理的开发，实现了网站业务逻辑控制与视图开发的分离，极大提高了项目开发、功能扩展与后期维护的效率
+- 利用session和cookie技术，实现用户的自动登录
+- 通过PHP提供的GD库，编码实现验证码功能
+- 开发实现购物车、图片上传、文件上传、分页等通用类，方便后期功能的扩展
+- 视图开发中加入了自动加载及非法访问功能
+- 对于后台数据库的操作结合了自动验证功能，在一定程度上避免了数据库的非法注入攻击
+- 后台管理中通过引入第三方文本编辑器插件，提升了数据录入的效率
 
 
+后台主要实现：
+
+- 对商品类别的管理（添加、删除、更新）
+- 商品类别的无限级分类
+- 商品的入库、发布
+- 对订单的管理
+
+前端主要实现：
+
+- 用户的注册、登录功能
+- 商品展示
+- 购物车功能
+- 下订单功能
+
+### 个人博客（2017年9月~……）
+
+- 个人博客项目主要通过Python实现
+- 结合Django开发框架，利用Bootstrap来达到UI界面风格一致的效果
+- 开发过程中主要完成URL配置，模版、模型、以及通用视图的实现
+- 在网页中引入Markdown实现页面排版的美观
+- 利用Ajax实现评论等功能的页面无刷新实现
+- 后期涉及到网站的部署，主要包括域名及服务器的配置
+
+# 技能及校内荣誉
+
+- 编程语言：C/Python/PHP/JSP/HTML/CSS
+- 开发工具：Visual Studio/Sublime
+- 前端框架：Django
+- 数据库相关：SQLServer/MySQL
+- 版本管理：Git
+- 大学英语六级（477分）
+- 校级数学建模竞赛二等奖
+- 院级优秀学生
+
+---
+
+# 兴趣爱好
+
+- 阅读
+- 乒乓
+- 敲代码
+- 刷博客
+
+---
